@@ -8,21 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		3BC484942AEE35F50023E9E7 /* TopuchDown_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC484932AEE35F50023E9E7 /* TopuchDown_swiftuiApp.swift */; };
-		3BC484962AEE35F50023E9E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC484952AEE35F50023E9E7 /* ContentView.swift */; };
 		3BC484982AEE35F60023E9E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC484972AEE35F60023E9E7 /* Assets.xcassets */; };
 		3BC4849B2AEE35F60023E9E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC4849A2AEE35F60023E9E7 /* Preview Assets.xcassets */; };
-		3BC4849D2AEE35F60023E9E7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4849C2AEE35F60023E9E7 /* Persistence.swift */; };
 		3BC484A02AEE35F60023E9E7 /* TopuchDown_swiftui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4849E2AEE35F60023E9E7 /* TopuchDown_swiftui.xcdatamodeld */; };
+		3BC484B22AEE38720023E9E7 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BC484AE2AEE38720023E9E7 /* product.json */; };
+		3BC484B32AEE38720023E9E7 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BC484AF2AEE38720023E9E7 /* category.json */; };
+		3BC484B42AEE38720023E9E7 /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BC484B02AEE38720023E9E7 /* brand.json */; };
+		3BC484B52AEE38720023E9E7 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BC484B12AEE38720023E9E7 /* player.json */; };
+		3BC484B82AEE39930023E9E7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC484B72AEE39930023E9E7 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3BC484902AEE35F50023E9E7 /* TopuchDown_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopuchDown_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC484932AEE35F50023E9E7 /* TopuchDown_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopuchDown_swiftuiApp.swift; sourceTree = "<group>"; };
-		3BC484952AEE35F50023E9E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BC484972AEE35F60023E9E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BC4849A2AEE35F60023E9E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3BC4849C2AEE35F60023E9E7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3BC4849F2AEE35F60023E9E7 /* TopuchDown_swiftui.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TopuchDown_swiftui.xcdatamodel; sourceTree = "<group>"; };
+		3BC484AB2AEE373B0023E9E7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3BC484AE2AEE38720023E9E7 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
+		3BC484AF2AEE38720023E9E7 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		3BC484B02AEE38720023E9E7 /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
+		3BC484B12AEE38720023E9E7 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
+		3BC484B72AEE39930023E9E7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +46,7 @@
 		3BC484872AEE35F50023E9E7 = {
 			isa = PBXGroup;
 			children = (
+				3BC484AB2AEE373B0023E9E7 /* README.md */,
 				3BC484922AEE35F50023E9E7 /* TopuchDown_swiftui */,
 				3BC484912AEE35F50023E9E7 /* Products */,
 			);
@@ -56,9 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				3BC484932AEE35F50023E9E7 /* TopuchDown_swiftuiApp.swift */,
-				3BC484952AEE35F50023E9E7 /* ContentView.swift */,
-				3BC484972AEE35F60023E9E7 /* Assets.xcassets */,
-				3BC4849C2AEE35F60023E9E7 /* Persistence.swift */,
+				3BC484A62AEE36510023E9E7 /* Model */,
+				3BC484A72AEE36570023E9E7 /* View */,
+				3BC484A82AEE36620023E9E7 /* ViewModel */,
+				3BC484A92AEE36710023E9E7 /* Extension */,
+				3BC484AA2AEE367B0023E9E7 /* Supporting */,
 				3BC4849E2AEE35F60023E9E7 /* TopuchDown_swiftui.xcdatamodeld */,
 				3BC484992AEE35F60023E9E7 /* Preview Content */,
 			);
@@ -71,6 +81,71 @@
 				3BC4849A2AEE35F60023E9E7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BC484A62AEE36510023E9E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BC484AC2AEE38480023E9E7 /* Data */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3BC484A72AEE36570023E9E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BC484B62AEE39840023E9E7 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BC484A82AEE36620023E9E7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3BC484A92AEE36710023E9E7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3BC484AA2AEE367B0023E9E7 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				3BC484972AEE35F60023E9E7 /* Assets.xcassets */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		3BC484AC2AEE38480023E9E7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3BC484AD2AEE38600023E9E7 /* Json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3BC484AD2AEE38600023E9E7 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				3BC484B02AEE38720023E9E7 /* brand.json */,
+				3BC484AF2AEE38720023E9E7 /* category.json */,
+				3BC484B12AEE38720023E9E7 /* player.json */,
+				3BC484AE2AEE38720023E9E7 /* product.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		3BC484B62AEE39840023E9E7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3BC484B72AEE39930023E9E7 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +206,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC484B52AEE38720023E9E7 /* player.json in Resources */,
 				3BC4849B2AEE35F60023E9E7 /* Preview Assets.xcassets in Resources */,
+				3BC484B42AEE38720023E9E7 /* brand.json in Resources */,
 				3BC484982AEE35F60023E9E7 /* Assets.xcassets in Resources */,
+				3BC484B22AEE38720023E9E7 /* product.json in Resources */,
+				3BC484B32AEE38720023E9E7 /* category.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BC484A02AEE35F60023E9E7 /* TopuchDown_swiftui.xcdatamodeld in Sources */,
-				3BC4849D2AEE35F60023E9E7 /* Persistence.swift in Sources */,
-				3BC484962AEE35F50023E9E7 /* ContentView.swift in Sources */,
+				3BC484B82AEE39930023E9E7 /* HomeView.swift in Sources */,
 				3BC484942AEE35F50023E9E7 /* TopuchDown_swiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
