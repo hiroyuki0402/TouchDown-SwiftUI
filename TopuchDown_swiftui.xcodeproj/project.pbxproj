@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B58E91B2AEE6CC4007B1914 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58E91A2AEE6CC4007B1914 /* FooterView.swift */; };
+		3B58E91D2AEE6F12007B1914 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B58E91C2AEE6F12007B1914 /* Localizable.strings */; };
+		3B58E91F2AEFBEE1007B1914 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58E91E2AEFBEE1007B1914 /* NavigationBarView.swift */; };
+		3B58E9212AEFC567007B1914 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58E9202AEFC567007B1914 /* LogoView.swift */; };
+		3B58E9242AEFCBF7007B1914 /* PlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58E9232AEFCBF7007B1914 /* PlayerData.swift */; };
+		3B58E9262AEFCC8C007B1914 /* PlayerDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58E9252AEFCC8C007B1914 /* PlayerDataViewModel.swift */; };
+		3B58E9292AEFCD58007B1914 /* Bundle-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58E9282AEFCD58007B1914 /* Bundle-Extension.swift */; };
+		3B58E92D2AEFCEC2007B1914 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58E92C2AEFCEC2007B1914 /* FeaturedItemView.swift */; };
+		3B58E92F2AEFCF7E007B1914 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58E92E2AEFCF7E007B1914 /* FeaturedTabView.swift */; };
 		3BC484942AEE35F50023E9E7 /* TopuchDown_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC484932AEE35F50023E9E7 /* TopuchDown_swiftuiApp.swift */; };
 		3BC484982AEE35F60023E9E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC484972AEE35F60023E9E7 /* Assets.xcassets */; };
 		3BC4849B2AEE35F60023E9E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC4849A2AEE35F60023E9E7 /* Preview Assets.xcassets */; };
@@ -19,6 +28,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B58E9182AEE6B95007B1914 /* TopuchDown-swiftui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TopuchDown-swiftui-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3B58E91A2AEE6CC4007B1914 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		3B58E91C2AEE6F12007B1914 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		3B58E91E2AEFBEE1007B1914 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		3B58E9202AEFC567007B1914 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		3B58E9232AEFCBF7007B1914 /* PlayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerData.swift; sourceTree = "<group>"; };
+		3B58E9252AEFCC8C007B1914 /* PlayerDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDataViewModel.swift; sourceTree = "<group>"; };
+		3B58E9282AEFCD58007B1914 /* Bundle-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Extension.swift"; sourceTree = "<group>"; };
+		3B58E92C2AEFCEC2007B1914 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		3B58E92E2AEFCF7E007B1914 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		3BC484902AEE35F50023E9E7 /* TopuchDown_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopuchDown_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC484932AEE35F50023E9E7 /* TopuchDown_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopuchDown_swiftuiApp.swift; sourceTree = "<group>"; };
 		3BC484972AEE35F60023E9E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +62,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B58E9192AEE6C9F007B1914 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				3B58E91A2AEE6CC4007B1914 /* FooterView.swift */,
+				3B58E91E2AEFBEE1007B1914 /* NavigationBarView.swift */,
+				3B58E9202AEFC567007B1914 /* LogoView.swift */,
+				3B58E92C2AEFCEC2007B1914 /* FeaturedItemView.swift */,
+				3B58E92E2AEFCF7E007B1914 /* FeaturedTabView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		3B58E9222AEFCBE5007B1914 /* PlayerData */ = {
+			isa = PBXGroup;
+			children = (
+				3B58E9232AEFCBF7007B1914 /* PlayerData.swift */,
+			);
+			path = PlayerData;
+			sourceTree = "<group>";
+		};
+		3B58E9272AEFCCD4007B1914 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		3BC484872AEE35F50023E9E7 = {
 			isa = PBXGroup;
 			children = (
@@ -63,12 +109,14 @@
 		3BC484922AEE35F50023E9E7 /* TopuchDown_swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				3B58E9182AEE6B95007B1914 /* TopuchDown-swiftui-Info.plist */,
 				3BC484932AEE35F50023E9E7 /* TopuchDown_swiftuiApp.swift */,
 				3BC484A62AEE36510023E9E7 /* Model */,
 				3BC484A72AEE36570023E9E7 /* View */,
 				3BC484A82AEE36620023E9E7 /* ViewModel */,
 				3BC484A92AEE36710023E9E7 /* Extension */,
 				3BC484AA2AEE367B0023E9E7 /* Supporting */,
+				3B58E9272AEFCCD4007B1914 /* Util */,
 				3BC4849E2AEE35F60023E9E7 /* TopuchDown_swiftui.xcdatamodeld */,
 				3BC484992AEE35F60023E9E7 /* Preview Content */,
 			);
@@ -102,6 +150,7 @@
 		3BC484A82AEE36620023E9E7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3B58E9252AEFCC8C007B1914 /* PlayerDataViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -109,6 +158,7 @@
 		3BC484A92AEE36710023E9E7 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				3B58E9282AEFCD58007B1914 /* Bundle-Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -117,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				3BC484972AEE35F60023E9E7 /* Assets.xcassets */,
+				3B58E91C2AEE6F12007B1914 /* Localizable.strings */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -124,6 +175,7 @@
 		3BC484AC2AEE38480023E9E7 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				3B58E9222AEFCBE5007B1914 /* PlayerData */,
 				3BC484AD2AEE38600023E9E7 /* Json */,
 			);
 			path = Data;
@@ -144,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				3BC484B72AEE39930023E9E7 /* HomeView.swift */,
+				3B58E9192AEE6C9F007B1914 /* Component */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -209,6 +262,7 @@
 				3BC484B52AEE38720023E9E7 /* player.json in Resources */,
 				3BC4849B2AEE35F60023E9E7 /* Preview Assets.xcassets in Resources */,
 				3BC484B42AEE38720023E9E7 /* brand.json in Resources */,
+				3B58E91D2AEE6F12007B1914 /* Localizable.strings in Resources */,
 				3BC484982AEE35F60023E9E7 /* Assets.xcassets in Resources */,
 				3BC484B22AEE38720023E9E7 /* product.json in Resources */,
 				3BC484B32AEE38720023E9E7 /* category.json in Resources */,
@@ -223,8 +277,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BC484A02AEE35F60023E9E7 /* TopuchDown_swiftui.xcdatamodeld in Sources */,
+				3B58E9292AEFCD58007B1914 /* Bundle-Extension.swift in Sources */,
+				3B58E9242AEFCBF7007B1914 /* PlayerData.swift in Sources */,
+				3B58E9212AEFC567007B1914 /* LogoView.swift in Sources */,
+				3B58E91B2AEE6CC4007B1914 /* FooterView.swift in Sources */,
 				3BC484B82AEE39930023E9E7 /* HomeView.swift in Sources */,
+				3B58E92F2AEFCF7E007B1914 /* FeaturedTabView.swift in Sources */,
 				3BC484942AEE35F50023E9E7 /* TopuchDown_swiftuiApp.swift in Sources */,
+				3B58E92D2AEFCEC2007B1914 /* FeaturedItemView.swift in Sources */,
+				3B58E91F2AEFBEE1007B1914 /* NavigationBarView.swift in Sources */,
+				3B58E9262AEFCC8C007B1914 /* PlayerDataViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,11 +423,12 @@
 				DEVELOPMENT_TEAM = MP9J987NN4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TopuchDown-swiftui-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = lLght;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,11 +453,12 @@
 				DEVELOPMENT_TEAM = MP9J987NN4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TopuchDown-swiftui-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = lLght;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
