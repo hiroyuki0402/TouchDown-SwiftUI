@@ -8,7 +8,7 @@
 import Foundation
 
 
-class PlayerDataViewModel {
+class PlayerDataViewModel: ObservableObject {
 
     @Published var playerDatas: PlayerDatas = []
 
