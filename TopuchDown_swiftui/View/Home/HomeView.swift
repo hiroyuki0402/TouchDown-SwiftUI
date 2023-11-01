@@ -16,6 +16,7 @@ struct HomeView: View {
     @StateObject var categoryViewModel = CategoryViewModel()
     @StateObject var playerViewModel = PlayerDataViewModel()
 
+    @EnvironmentObject var shop: Shop
 
     init() {
         let scenes = UIApplication.shared.connectedScenes
@@ -27,55 +28,74 @@ struct HomeView: View {
     // MARK: - ボディー
     var body: some View {
         ZStack {
-            VStack(spacing: 0) {
+            if shop.showingProduct == false && shop.selectedProduct == nil {
+                VStack(spacing: 0) {
+                    
+                    /// ナビゲーションバー
+                    NavigationBarView()
+                        .padding(.horizontal, 15)
+                        .padding(.bottom)
+                        .padding(.top, window?.safeAreaInsets.top)
+                        .background(Color.white)
+                        .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
+                    
+                    
+                    ScrollView(.vertical) {
+                        
+                        VStack(spacing: 0) {
+                            /// セグメント
+                            FeaturedTabView()
+                                .padding(.vertical, 20)
+                                .frame(height: UIScreen.main.bounds.width / 1.475)
+                            
+                            /// カテゴリー
+                            CategoryGridView()
+                            
+                            /// 商品エリアタイトル
+                            TitleView(title: "helmet".uppercased())
+                            
+                            /// 商品
+                            LazyVGrid(
+                                columns: categoryViewModel.gridLayout().gridLayouts,
+                                spacing: 15,
+                                content: {
+                                    ForEach(productViewModel.productDatas) { item in
+                                        ProductItemView(productData: item)
+                                            .onTapGesture {
 
-                /// ナビゲーションバー
-                NavigationBarView()
-                    .padding(.horizontal, 15)
-                    .padding(.bottom)
-                    .padding(.top, window?.safeAreaInsets.top)
-                    .background(Color.white)
-                    .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
 
+                                              withAnimation(.easeOut) {
+                                                shop.selectedProduct = item
+                                                shop.showingProduct = true
+                                              }
+                                            }
+                                    }
+                                })//: LazyVGrid
+                            .padding(15)
+                            
+                            /// ブランドエリアタイトル
+                            TitleView(title: "ブランド".uppercased())
+                            
+                            /// ブランドエリア
+                            BrandGridView()
+                            
+                            /// フッター
+                            FooterView()
+                                .padding(.horizontal)
+                        }//: VStack
+                        
+                    }//: ScrollView
+                }//: VStack
+                .background(Color.colorBackground.ignoresSafeArea(.all, edges: .all))
+            } else {
+                ProductDetailView()
+            }
 
-                ScrollView(.vertical) {
-
-                    VStack(spacing: 0) {
-                        /// セグメント
-                        FeaturedTabView()
-                            .padding(.vertical, 20)
-                            .frame(height: UIScreen.main.bounds.width / 1.475)
-
-                        /// カテゴリー
-                        CategoryGridView()
-
-                        /// 商品エリアタイトル
-                        TitleView(title: "helmet".uppercased())
-
-                        /// 商品
-                        LazyVGrid(
-                            columns: categoryViewModel.gridLayout().gridLayouts,
-                            spacing: 15,
-                            content: {
-                                ForEach(productViewModel.productDatas) { item in
-                                    ProductItemView(productData: item)
-                                }
-                        })//: LazyVGrid
-                        .padding(15)
-
-                        /// フッター
-                        FooterView()
-                            .padding(.horizontal)
-                    }//: VStack
-
-                }//: ScrollView
-
-            }//: VStack
-            .background(Color.colorBackground.ignoresSafeArea(.all, edges: .all))
         }//: ZStack
     }//: MARK - ボディ
 }
 
 #Preview {
     HomeView()
+        .environmentObject(Shop())
 }

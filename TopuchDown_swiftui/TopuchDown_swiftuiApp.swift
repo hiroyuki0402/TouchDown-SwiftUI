@@ -13,6 +13,7 @@ struct TopuchDown_swiftuiApp: App {
     var body: some Scene {
         WindowGroup {
             HomeView()
+                .environmentObject(Shop())
         }
     }
 }
