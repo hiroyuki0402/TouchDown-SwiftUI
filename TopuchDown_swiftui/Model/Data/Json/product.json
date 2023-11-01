@@ -4,7 +4,7 @@
     "name" : "Blue helmet",
     "image" : "helmet-no6",
     "price" : 199,
-    "description" : "The football helmet is a piece of protective equipment used mainly in gridiron football. It consists of a hard plastic shell with thick padding on the inside, a face mask made of one or more plastic-coated metal bars, and a chinstrap. Each position has a different type of face mask to balance protection and visibility, and some players add polycarbonate visors to their helmets, which are used to protect their eyes from glare and impacts. Helmets are a requirement at all levels of organized football.",
+    "description" : "フットボールヘルメットは、主にグリッドアイアンフットボールで使用される保護具の一部です。これは、内側に厚いパッドが付いた硬質プラスチックのシェル、1 つ以上のプラスチックでコーティングされた金属棒で作られたフェイスマスク、およびあご紐で構成されています。各ポジションは保護と視認性のバランスを取るために異なるタイプのフェイスマスクを使用しており、一部のプレーヤーは眩しさや衝撃から目を保護するために使用されるポリカーボネート製バイザーをヘルメットに追加しています。ヘルメットは組織化されたフットボールのあらゆるレベルで必須です",
     "color" : [
       0.61,
       0.8,
@@ -16,7 +16,7 @@
     "name" : "Yellow helmet",
     "image" : "helmet-no2",
     "price" : 159,
-    "description" : "The football helmet is a piece of protective equipment used mainly in gridiron football. It consists of a hard plastic shell with thick padding on the inside, a face mask made of one or more plastic-coated metal bars, and a chinstrap. Each position has a different type of face mask to balance protection and visibility, and some players add polycarbonate visors to their helmets, which are used to protect their eyes from glare and impacts. Helmets are a requirement at all levels of organized football.",
+    "description" : "フットボールヘルメットは、主にグリッドアイアンフットボールで使用される保護具の一部です。これは、内側に厚いパッドが付いた硬質プラスチックのシェル、1 つ以上のプラスチックでコーティングされた金属棒で作られたフェイスマスク、およびあご紐で構成されています。各ポジションは保護と視認性のバランスを取るために異なるタイプのフェイスマスクを使用しており、一部のプレーヤーは眩しさや衝撃から目を保護するために使用されるポリカーボネート製バイザーをヘルメットに追加しています。ヘルメットは組織化されたフットボールのあらゆるレベルで必須です。",
     "color" : [
       0.97,
       0.87,
