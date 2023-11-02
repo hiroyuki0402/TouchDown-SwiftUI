@@ -14,11 +14,31 @@ struct AddToCartDetailView: View {
 
 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+
+        } label: {
+            Spacer()
+            Text("追加する")
+              .font(.system(.title2, design: .rounded))
+              .fontWeight(.bold)
+              .foregroundColor(.white)
+            Spacer()
+        }
+        .padding(15)
+        .background(
+          Color(
+            red: shop.selectedProduct?.color[0] ?? 255,
+            green: shop.selectedProduct?.color[1] ?? 214,
+            blue: shop.selectedProduct?.color[2] ?? 112
+          )
+        )
+        .clipShape(Capsule())
+
     }//: ボディー
 }
 
 #Preview {
     AddToCartDetailView()
         .environmentObject(Shop())
+        .background(Color.black)
 }

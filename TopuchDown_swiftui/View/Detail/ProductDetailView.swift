@@ -35,9 +35,13 @@ struct ProductDetailView: View {
             TopPartDetailView()
                 .zIndex(1)
 
+
             /// ボトム
             VStack(alignment: .center, spacing: 0) {
-                /// サイズ
+                ///サイズ
+                RatingsSizesDetailView()
+                    .padding(.top, -20)
+                    .padding(.bottom, 10)
 
                 /// 説明
                 ScrollView(.vertical, showsIndicators: false) {
@@ -51,8 +55,14 @@ struct ProductDetailView: View {
                 }
                 .frame(maxWidth: .infinity)
 
+                /// お気に入り
+                QuantityFavouriteDetailView()
+                    .padding(.vertical, 10)
+
                 /// 買い物かごへ
-                Spacer()
+                AddToCartDetailView()
+                    .padding(.bottom, 20)
+
             }
             .padding(.horizontal)
             .background(
