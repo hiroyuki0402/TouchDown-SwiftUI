@@ -21,3 +21,8 @@
 
 10.JSONファイルのデコードとSwiftUIでのデータ取得：JSONファイルをデコードして、SwiftUIでデータを取得する方法について学ぶ
 
+<img src="https://github.com/hiroyuki0402/TouchDown-SwiftUI/assets/88645049/d88ff070-fcda-48a6-8f34-ae18b96db16c" width="300">
+
+
+<img src="https://github.com/hiroyuki0402/TouchDown-SwiftUI/assets/88645049/3cbd3e6e-7acb-4ec1-8d57-029a2dbbbbe0" width="300">
+
